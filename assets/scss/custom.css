@@ -13256,6 +13256,21 @@ footer {
   width: 70%;
   border: none;
 }
+@media screen and (max-width: 1400px) {
+  #settings {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #settings {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #settings {
+    width: 100%;
+  }
+}
 
 .btn-membership {
   background-color: rgb(209, 209, 209);

@@ -1,3 +1,9 @@
+// FOOTER YEAR
+
+const currentYear = new Date().getFullYear()
+const yearSpan = document.getElementById('year')
+yearSpan.innerText = currentYear
+
 // RADIO BEHAVIOR
 
 const radioContainer = document.getElementById("radio-btns");
@@ -19,9 +25,3 @@ for (let i = 0; i < radios.length; i++) {
         }
     });
 }
-
-// FOOTER YEAR
-
-const currentYear = new Date().getFullYear()
-const yearSpan = document.getElementById('year')
-yearSpan.innerText = currentYear

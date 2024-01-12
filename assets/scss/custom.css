@@ -13254,6 +13254,12 @@ footer {
 
 #settings {
   width: 70%;
-  margin: 0 auto;
   border: none;
+}
+
+.btn-membership {
+  background-color: rgb(209, 209, 209);
+  border: none;
+  padding: 10px 30px;
+  box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.75);
 }/*# sourceMappingURL=custom.css.map */
